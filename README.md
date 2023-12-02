@@ -18,4 +18,5 @@ Data augmentation serves as a pivotal preprocessing step in the analysis of medi
 
 #### 3. Proposed Methodology
 In the proposed methodology, Convolutional Neural Networks (CNNs) are employed for feature extraction from MRI images, leveraging a pre-trained model such as VGG16. To adapt the CNN to the specific characteristics of brain images, a fine-tuning process is undertaken on the dataset. Subsequently, quantum feature encoding techniques are explored to represent the CNN-extracted features in a quantum state. This involves investigating methods like amplitude encoding, quantum embeddings, and other quantum feature maps to encode relevant information. Moving forward, a Quantum Support Vector Machine (QSVM) is implemented using a quantum computing library, such as Qiskit. The quantum states obtained from the preceding step are encoded as inputs to the QSVM, which is then trained on the encoded features for the three classes—Alzheimer's Disease (AD), Mild Cognitive Impairment (MCI), and Normal Control (NC). This integrated approach aims to harness the strengths of classical and quantum methods for enhanced accuracy in classifying Alzheimer's disease stages from MRI data.
-![](Images/ProcessFlow.png | height=200)
+![](Images/ProcessFlow.png)
+<img src="Images/ProcessFlow.png"  width="600" height="300">
