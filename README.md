@@ -12,3 +12,4 @@ In this project, we used public brain MRI data from **Alzheimers Disease Neuroim
 The MRI images obtained from the ADNI dataset were pre-processed prior to being fed to the CNN model for feature extraction. Input shape of the images was set to be (224,224) akin to VGG-16s input layer.  The MRI images are then converted to grayscale for simplification, consistency, and enhanced interpretability. Grayscale representation reduces the image to a single intensity channel, facilitating the implementation of image processing algorithms with reduced computational complexity. Grayscale images also provide improved contrast, making them suitable for visualizing specific anatomical details or abnormalities. Min-Max normalization is also applied to scale pixel values between 0 and 1, ensure consistent scale and mitigate intensity variations.
 
 #### 3. Proposed Methodology
+![]Images/Process Flow.png
